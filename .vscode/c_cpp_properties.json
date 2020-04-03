@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "CConfig",
+      "includePath": [
+        "${workspaceFolder}",
+        "${workspaceFolder}/../zephyr/include/zephyr",
+        "${workspaceFolder}/../zephyr/include",
+        "${workspaceFolder}/../zephyr/arch/arm/include",
+        "${workspaceFolder}/../zephyr/ext/hal/nordic/nrfx/mdk",
+        "${workspaceFolder}/build/zephyr/include/generated"
+      ],
+      "cStandard": "c99",
+      "cppStandard": "c++98",
+      "intelliSenseMode": "gcc-x86"
+    }
+  ],
+  "version": 4
+}

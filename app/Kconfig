@@ -1,0 +1,10 @@
+config PINNACLE100_POWER_MGMT_EXAMPLE
+	bool
+	default y
+	select HAS_SYS_POWER_STATE_SLEEP_1
+	help
+	  Hidden option enabling low power states.
+	  This is needed, as these states are implemented by this example.
+
+# Include Zephyr's Kconfig.
+source "$ZEPHYR_BASE/Kconfig"
