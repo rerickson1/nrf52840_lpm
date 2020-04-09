@@ -2,7 +2,7 @@
 
 #define BUSY_WAIT_TIME_SECONDS 5
 #define BUSY_WAIT_TIME (BUSY_WAIT_TIME_SECONDS * 1000000)
-#define SLEEP_TIME_SECONDS 30
+#define SLEEP_TIME_SECONDS 15
 
 /* Application main Thread */
 void main(void)

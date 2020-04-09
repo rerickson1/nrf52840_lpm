@@ -8,7 +8,7 @@ manifest:
   projects:
     - name: zephyr
       west-commands: scripts/west-commands.yml
-      revision: v1.14.1
+      revision: 8c49afac8d5efa5a5519d1e102c92c120441b8a5
       remote: zephyrproject
       import: true
   self:
